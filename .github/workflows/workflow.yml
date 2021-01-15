@@ -1,4 +1,4 @@
-name: push
+name: coverall
 on: [push, pull_request]
 
 jobs:
