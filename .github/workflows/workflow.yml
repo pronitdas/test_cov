@@ -9,7 +9,7 @@ jobs:
     - uses: actions/setup-python@v1
 
     
-    - name: Install coverage 
+    - name: Install coverage pytest
       run: pip install coverage
     - name: Unit tests
       run: coverage run pytest test_code.py
