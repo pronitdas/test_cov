@@ -1,2 +1,2 @@
 # test_cov
-coevrage test
+coverage test
