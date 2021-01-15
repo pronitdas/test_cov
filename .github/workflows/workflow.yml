@@ -12,7 +12,7 @@ jobs:
     - name: Install coverage pytest
       run: pip install coverage
     - name: Unit tests
-      run: coverage run pytest test_code.py
+      run: coverage run test_code.py
 
     - name: Coveralls
       uses: AndreMiras/coveralls-python-action@develop
